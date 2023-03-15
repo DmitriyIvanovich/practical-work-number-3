@@ -1,0 +1,29 @@
+main {
+    width: 1400px;
+    margin: 0 auto;
+    height: 600px;
+    background-color:#87509c;
+}
+main h1{
+    width: 990px;
+    padding-top: 240px;
+    margin: 0 auto;
+    font-size:42px;
+    font-weight: 600;
+    text-align: center;
+}
+main a{
+    display:block;
+    width: 300px;
+    height: 65px;
+    margin: 55px auto;
+    border-radius: 5px;
+    background-color: #eb7d4b;
+    box-shadow: 0 5px 0 #c86a40;
+    font-size: 18px;
+    text-align: center;
+    line-height: 65px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}

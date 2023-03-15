@@ -1,0 +1,29 @@
+﻿@import url(main.css);
+@import url(header.css);
+@import url(section_1.css);
+@import url(section_2.css);
+
+@font-face {
+font-family: 'Titillium Web';
+src: url('/fonts/TitilliumWeb-Regular.ttf');
+}
+
+
+h1, h2, h3, h4, h5, p, hr, ul{
+    margin:0;
+    padding:0;
+}
+body {
+    margin: 0 auto;
+    position: relative;
+    width: 1400px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 230, 230);
+}
+
+/* header, main, .section_1{
+    display:none;
+} */

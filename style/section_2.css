@@ -1,0 +1,114 @@
+.section_2 {
+    width: 1400px;
+    padding: 110px 0 120px;
+    background-color: #e7f1f8;
+    color: black;
+
+}
+
+/* .section_2 .fence{
+
+} */
+
+.section_2 .text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_2 .text-block h3 {
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.section_2 .text-block hr {
+    width: 90px;
+    height: 4px;
+    margin-top: 10px;
+    border: 0;
+    background-color: #c8d9e5;
+    border-radius: 1px;
+}
+
+.section_2 .text-block p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.section_2 .card-block {
+    width: 1100px;
+    margin: 75px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_2 .card-block .card {
+    width: 260px;
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+    align-items: center;
+    justify-items: center;
+}
+
+.section_2 .card .icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: grey;
+}
+
+.section_2 .card h4 {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section_2 .card h5 {
+    font-size: 16px;
+    color: #30bae7;
+}
+
+.section_2 .card p {
+    margin-top: 15px;
+    width:200px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.section_2 .card .messengers{
+    margin-top: 30px;
+    display:flex;
+    justify-content: end;
+    align-self: end;
+    list-style: none;
+    color: black;
+}
+
+.section_2 .card .messengers li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_2 .card .messengers li + li{
+    margin-left: 10px;
+}
+.section_2 .card .messengers li a{
+    width:32px;
+    height:32px;
+    background: #bdd1df;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    /* background-color: red; */
+    text-decoration: none;
+    font-size: 15px;
+}
+.section_2 .card .messengers li a:hover {
+background: #6b7d8a;
+transition: 250ms ease-in 50ms;
+}

@@ -1,0 +1,42 @@
+header {
+    position: absolute;
+    margin: 0 auto;
+    top: 56px;
+    left: 0;
+    right: 0;
+    width: 1100px;
+    /* background-color: blue; */
+}
+
+header .fence {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav {
+    display: flex;
+    width: 460px;
+    height: 30px;
+    justify-content: space-evenly;
+
+}
+
+header ul.nav li {
+    padding: 0 17px;
+    height: 32px;
+    /* background: red; */
+    border-radius: 4px;
+    list-style: none;
+}
+header ul.nav li:hover {
+    background: #643a79;
+}
+
+header .nav a {
+    text-decoration: none;
+    line-height: 32px;
+    color: white;
+    text-transform: uppercase;
+
+}
