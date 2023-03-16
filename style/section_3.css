@@ -1,0 +1,74 @@
+#section_3 {
+    padding: 100px 0;
+    background-color: white;
+}
+
+#section_3>h3 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 100%;
+}
+
+#section_3>.line {
+    width: 90px;
+    height: 4px;
+    margin: 5px auto 0;
+    background-color: #dfe8ed;
+}
+
+#section_3>p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#section_3 .cards_diagram {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+#section_3 .card:not(:first-of-type){
+    margin-left: 120px;
+}
+#section_3 .diagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    background-color: #30bae7;
+    background-image: conic-gradient(transparent 90%,
+            #dfe8ed 0%);
+    border-radius: 50%;
+}
+
+#section_3 .core {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#section_3 .core .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%, -50%);
+    font-size: 32px;
+    font-weight: 200;
+}
+
+#section_3 .core span {
+    font-size: 50px;
+}
+
+#section_3 .card>p{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
