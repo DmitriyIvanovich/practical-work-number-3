@@ -1,0 +1,82 @@
+#section_6 {
+    padding: 100px 0;
+    background-color: #3c5499;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+#section_6>h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#section_6>.line {
+    background-color: #273a71;
+    height: 4px;
+    width: 90px;
+    margin: 5px auto 0;
+}
+
+#section_6>p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+}
+
+#section_6 form {
+    display: grid;
+    grid-template-areas: "a b""c c""d d";
+    grid-column-gap: 35px;
+    margin: 65px auto 0;
+    width: 860px;
+}
+
+#section_6 form .field_type_1 {
+    padding: 0 20px;
+    height: 55px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background-color: #273a71;
+    font-size: 18px;
+    color: white;
+}
+
+#section_6 form textarea {
+    grid-area: c;
+    margin-top: 25px;
+    padding: 20px;
+    height: 200px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background-color: #273a71;
+    font-size: 18px;
+    color: white;
+}
+
+#section_6 form ::placeholder {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.654);
+}
+
+#section_6 .button_load {
+    grid-area: d;
+    display: block;
+    width: max-content;
+    margin: 75px auto 0;
+    padding: 20px 55px;
+    border: none;
+    border-bottom: 4px solid #299ec5;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background-color: #30bae7;
+}

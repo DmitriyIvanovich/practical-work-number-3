@@ -1,0 +1,28 @@
+footer {
+    padding: 40px 0 40px;
+    background-color: #344b8e;
+    border-top: 1px solid #3c5499;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav li {
+    list-style: none;
+}
+footer nav li:not(:first-child){
+    margin-left: 55px;
+}
+
+footer nav a {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: white;
+}
+footer nav a:hover {
+color:#30bae7;
+}
